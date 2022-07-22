@@ -17,7 +17,7 @@ import modelo.Empleado;
 @Stateless
 public class EmpleadoFacade extends AbstractFacade<Empleado> {
 
-    @PersistenceContext(unitName = "Crud_jsfPU")
+    @PersistenceContext(unitName = "JSFCrudPU")
     private EntityManager em;
 
     @Override
